@@ -64,11 +64,11 @@ const showPath = async (colors) => {
 // function to end the game and show final score
 
 const endGame = () => {
-    resultEl.innerHTML = `<span> Your Score : </span> ${score}`;
+    resultEl.innerHTML = `<span> Пройдено : </span> ${score}`;
     resultEl.classList.remove("hide");
     containerEl.classList.remove("hide");
     wrapperEl.classList.add("hide");
-    startBtn.innerText = "Play Again";
+    startBtn.innerText = "Та нажми";
     startBtn.classList.remove("hide");
 };
 
